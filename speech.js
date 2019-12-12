@@ -3,6 +3,7 @@ const synth = window.speechSynthesis;
 
 // DOM Elements
 const textForm = document.querySelector('form');
+const voiceSelect = document.querySelector('#voice-select');
 const noun = document.querySelector('#noun');
 const adjective = document.querySelector('#adjective');
 const vehicle = document.querySelector('#vehicle');

@@ -67,11 +67,6 @@ if (isChrome) {
       console.log('Done speaking...');
     };
 
-    // Speak error
-    speakText.onerror = e => {
-      console.error('Something went wrong');
-    };
-
     // Selected voice
     const selectedVoice = voiceSelect.selectedOptions[0].getAttribute(
       'data-name'

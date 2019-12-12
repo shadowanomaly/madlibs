@@ -69,9 +69,7 @@ if (isChrome) {
     };
 
     // Selected voice
-    const selectedVoice = voiceSelect.selectedOptions[0].getAttribute(
-      'data-name'
-    );
+    const selectedVoice = voiceSelect.selectedOptions[0].getAttribute('data-name');
 
     // Loop through voices
     voices.forEach(voice => {
